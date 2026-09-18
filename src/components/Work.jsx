@@ -2,7 +2,7 @@
  import marketplace from "../assets/marketplace.png";
 import investment from "../assets/investment.png";
 import learntech from "../assets/learntech.png";
-// import smartbusiness from "../assets/smartbusiness.png";
+import smartbusiness from "../assets/safe.png";
 // import crossborder from "../assets/crossborder.png";
 
 const projects = [
@@ -39,12 +39,12 @@ const projects = [
   },
 
   {
-    title: "Smart Business Management System",
-    // image: smartbusiness,
-    link: "#",
-    description:
-      "A business management solution for tracking operations, customers and transactions.",
-  },
+  title: "Smart House Rental Management System",
+  image: smartbusiness,
+  link: "https://app.safelease.org/",
+  description:
+    "A smart house rental management platform that connects landlords and tenants, simplifies property listings, rental applications, lease agreements, and rent-related transactions."
+},
 
   {
     title: "Cross Border Marketplace",
